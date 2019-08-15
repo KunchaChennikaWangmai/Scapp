@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Specificproject">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/img"
+                android:layout_width="190dp"
+                android:layout_height="195dp"
+                android:layout_below="@+id/sc"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="156dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/wm"
+                android:text="Button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.927"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.007" />
+
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:fontStyle="italic"
+                android:fontWeight="400"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+
+                android:text="Dual Power Washing machine"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.155"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                app:layout_constraintVertical_bias="0.027" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="400dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="200dp"
+                android:text="The project aims at designing a portable washing machine.
+                 This washing machine can work under both mechanical as well as electric power, thereby making it a highly useful commercial product; especially in rural areas where we don’t have electricity all the time.
+                 It works by converting the linear force which is supplied mechanically, into rotational force in order to make the clothes inside move whilst simultaneously forcing dust particles out.
+                  The mechanical principle of its working is like that of a sewing machine.
+                   It can also work on electrical energy like that of a normal washing machine but the major point in favor of our dual power machine is that it being smaller can also be easily portable.
+                   In the presence of electricity, the rotor which is attached externally to the washing machine rotates and hence causes the clothes (which are either directly in contact with the main rotor or due to the swirling movement of water) to rotate.
+                    Due to centrifugal force in that rotating frame of reference, the dirt molecules from the clothes get detached, completing the cleansing action."
+                android:fontStyle="italic"
+                android:fontWeight="400"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
